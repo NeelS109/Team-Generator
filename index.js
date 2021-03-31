@@ -81,3 +81,38 @@ function addEngineer() {
         }
     ])
 }
+
+// Function to add an Intern
+function addIntern() {
+    return inquirer.prompt([{
+            type: "input",
+            name: "name",
+            message: "What is the Interns name?"
+        },
+        {
+            type: "input",
+            name: "id",
+            message: "What is the Interns ID?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is the Interns email address?"
+        },
+        {
+            type: "input",
+            name: "school",
+            message: "What school did the Intern attend?"
+        },
+        {
+            type: "list",
+            name: "progress",
+            message: "What do you want to do next?",
+            choices: [
+                "Add an Engineer team member",
+                "Add an Intern team member",
+                "No more members to add"
+            ]
+        }
+    ])
+}
