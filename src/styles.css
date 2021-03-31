@@ -1,0 +1,36 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+html {
+    background-color: rgb(15, 27, 61);
+}
+
+#jumbotron-banner {
+    background-color: black;
+    text-align: center;
+    padding: 50px
+}
+
+.card-header {
+    display: inline-block;
+    text-align: auto;
+    font-weight: bold;
+}
+
+.card {
+    width: 400px;
+}
+
+.columns {
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    padding: 75px;
+}
+
+.info {
+    margin: 25px;
+}
