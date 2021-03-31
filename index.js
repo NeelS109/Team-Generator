@@ -31,12 +31,47 @@ function addManager() {
         },
         {
             type: "input",
-            name: "number",
+            name: "office number",
             message: "What is the Managers office number"
         },
         {
             type: "list",
-            name: "progress",
+            name: "next options",
+            message: "What do you want to do next?",
+            choices: [
+                "Add an Engineer team member",
+                "Add an Intern team member",
+                "No more members to add"
+            ]
+        }
+    ])
+}
+
+// Function to add Engineer
+function addEngineer() {
+    return inquirer.prompt([{
+            type: "input",
+            name: "name",
+            message: "What is the Engineers name?"
+        },
+        {
+            type: "input",
+            name: "id",
+            message: "What is the Engineers ID?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is the Engineers email address?"
+        },
+        {
+            type: "input",
+            name: "github",
+            message: "What is the Engineers Github username?"
+        },
+        {
+            type: "list",
+            name: "next options",
             message: "What do you want to do next?",
             choices: [
                 "Add an Engineer team member",
