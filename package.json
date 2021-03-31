@@ -1,0 +1,28 @@
+{
+  "name": "team-generator",
+  "version": "1.0.0",
+  "description": "CLI app to create profile for team",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeelS109/team-Generator.git"
+  },
+  "keywords": [
+    "Team",
+    "Profile",
+    "Genorator"
+  ],
+  "author": "Neel Sheth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeelS109/team-Generator/issues"
+  },
+  "homepage": "https://github.com/NeelS109/team-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^26.6.3"
+  }
+}
